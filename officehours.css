@@ -997,6 +997,7 @@ section.nametag>ul.social>li.google-plus>a { background-image: url(images/google
 
 footer {
   background-color: #4d2856;
+  background-image: url('/tents.png');
   overflow: hidden;
   margin-top: -1px;  /* fix seam on Android */
   color: white;
