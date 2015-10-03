@@ -354,6 +354,23 @@ a.detailbutton {
   vertical-align: top;
 }
 
+.deal {
+  width: 500px;
+  display:inline-block;
+  margin: 25px;
+  text-align: center;
+  vertical-align: top;
+  padding: 25px;
+}
+
+.deal> li {
+  text-align: left;
+}
+
+.deal> p{
+  text-align: left;
+}
+
 .calloutbox {
   border-radius: 2px;
   border: 2px solid #ebe8ed;
