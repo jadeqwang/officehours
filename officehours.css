@@ -273,7 +273,7 @@ section.tabs {
   transition: height 200ms;
   text-align: center;
   width: 100%;
-  font-size: 0;
+  /*font-size: 0;*/
 }
 
 section.tabs>section {
@@ -375,7 +375,7 @@ section.tabs>section>details>div>div {
 }
 
 #principles>h2 {
-  display: none;
+  /*display: none;*/
 }
 
 #principles>section {
@@ -398,7 +398,7 @@ section.tabs>section>details>div>div {
 #principles>section>details>summary::after {
   content: " ";
   display: block;
-  background-image: url(images/caret.svg);
+  /*background-image: url(images/caret.svg);*/
   background-repeat: no-repeat;
   background-position: center;
   width: 24px;
@@ -408,7 +408,7 @@ section.tabs>section>details>div>div {
 }
 
 #principles>section>details[open]>summary::after {
-  background-image: url(images/tri.svg);
+  /*background-image: url(images/tri.svg);*/
   width: 80px;
   height: 30px;
   margin: 20px auto 0;
@@ -447,15 +447,16 @@ section.tabs>section>details>div>div {
 #principles>section:nth-of-type(2)>details>summary { left: 425px; }
 #principles>section:nth-of-type(3)>details>summary { left: 750px; }
 
-#usability::before { background-image: url(images/usability.svg); }
+/*#usability::before { background-image: url(images/usability.svg); }
 #security::before  { background-image: url(images/security.svg); }
 #freedom::before   { background-image: url(images/freedom.svg); }
 
 #usability>details>div>div::before { background-image: url(images/usability-mono.svg); }
 #security>details>div>div::before  { background-image: url(images/security-mono.svg); }
 #freedom>details>div>div::before   { background-image: url(images/freedom-mono.svg); }
-
-/* ==================================================================================== */
+*/
+/* 
+==================================================================================== */
 
 #users {
   height: 850px;
