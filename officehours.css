@@ -260,13 +260,6 @@ header>ul#social>li#twitter>a { background-image: url(images/twitter.svg); }
 header>ul#social>li#google-plus>a { background-image: url(images/google-plus.svg); }
 header>ul#social>li#facebook>a { background-image: url(images/facebook.svg); }
 
-/* For browsers that don't recognize these. */
-details { display: block; }
-summary { display: block; }
-
-/* For browsers that do. */
-summary:focus { outline: none; }
-
 /* ==================================================================================== */
 
 section.tabs {
@@ -274,7 +267,9 @@ section.tabs {
   -webkit-transition: height 200ms;
   transition: height 200ms;
   text-align: center;
-  width: 100%;
+  width:320px;
+  display:inline-block;
+  /*width: 100%;*/
   /*font-size: 0;*/
 }
 
@@ -381,6 +376,7 @@ section.tabs>section>details>div>div {
 
 #principles {
   height: 300px;
+  display: inline-block;
 }
 
 #principles>h2 {
@@ -394,7 +390,7 @@ section.tabs>section>details>div>div {
 
 #principles>section::before {
   content: " ";
-  display: block;
+  /*display: block;*/
   height: 150px;
   background-repeat: no-repeat;
   background-position: top;
@@ -406,7 +402,7 @@ section.tabs>section>details>div>div {
 
 #principles>section>details>summary::after {
   content: " ";
-  display: block;
+  /*display: block;*/
   /*background-image: url(images/caret.svg);*/
   background-repeat: no-repeat;
   background-position: center;
@@ -442,7 +438,7 @@ section.tabs>section>details>div>div {
 }
 
 #principles>section>details>div>div::before {
-  display: block;
+  /*display: block;*/
   content: " ";
   background-repeat: no-repeat;
   background-position: center;
