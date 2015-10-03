@@ -63,30 +63,19 @@ nav {
   margin: 0 auto;
 }
 
-nav::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  z-index: -1;
-  background-color: #fffbfb;
-}
-
 nav>a {
   display: inline-block;
-  padding: 16px;
+  padding: 16px 16px 0px 16px;
   text-decoration: none;
   vertical-align: center;
   color: #460e54;
+  /*margin-bottom: 0px;*/
 }
 
 nav>a:first-of-type {
   padding-left: 50px;
   float: left;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 header {
