@@ -339,6 +339,12 @@ section.tabs>section>details>div>div {
   color: inherit;
 }
 
+#plainsection> table{
+  width: 1000px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
 #demo {
   padding: 35px 0;
   color: #000000;
