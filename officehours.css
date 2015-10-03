@@ -1010,7 +1010,7 @@ footer {
 }
 
 footer>h2 {
-  text-align: center;
+  text-align: right;
   font-size: 25pt;
   font-weight: normal;
   margin: 36px auto 1em;
