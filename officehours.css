@@ -340,6 +340,11 @@ section.tabs>section>details>div>div {
   background-color: #e6e3e8;
 }
 
+#demo img {
+  height: 150px;
+  width: auto;
+}
+
 #description {
   padding: 35px 0;
   color: #6A237C;
