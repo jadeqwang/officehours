@@ -997,8 +997,13 @@ section.nametag>ul.social>li.google-plus>a { background-image: url(images/google
 
 footer {
   background-color: #4d2856;
-  background-image: url('/tents.png');
-  overflow: hidden;
+  position:relative;
+  /*background-image: url('/tents.png');*/
+/*  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0 -200px;*/
+  /*overflow: hidden;*/
+  height: 400px;
   margin-top: -1px;  /* fix seam on Android */
   color: white;
   text-align: right;
@@ -1011,14 +1016,17 @@ footer>h2 {
   margin: 36px auto 1em;
 }
 
-footer>h2::before {
+footer::before {
   content: " ";
-  display: inline-block;
-  background-image: url(images/logo-white.svg);
+  display: block;
+  background-image: url(/tents.png);
   background-repeat: no-repeat;
-  width: 90px;
-  height: 90px;
-  vertical-align: bottom;
+  position:absolute;
+  top: -100px;
+  width: 400px;
+  height: 400px;
+  /*vertical-align: bottom;*/
+  /*margin-right: 400px;*/
   margin-right: -20px;
 }
 
