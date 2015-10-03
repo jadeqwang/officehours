@@ -50,13 +50,14 @@ body.droid {
 }
 
 nav {
-  background-image: url(images/logo.svg);
+  /*background-image: url(/sandstormio-logo.png);*/
   background-repeat: no-repeat;
-  background-size: 160px 35px;
-  height: 44px;
+  background-size: 160px 44px;
+  height: 70px;
   color: #460e54;
   line-height: 44px;
   text-align: right;
+  vertical-align: center;
   font-size: 14pt;
   width: 1100px;
   margin: 0 auto;
@@ -76,8 +77,9 @@ nav::after {
 
 nav>a {
   display: inline-block;
-  padding: 0 32px;
+  padding: 16px;
   text-decoration: none;
+  vertical-align: center;
   color: #460e54;
 }
 
@@ -105,9 +107,9 @@ header::before {
   left: 0;
   right: 0;
   height: 400px;
-  background-image: url(images/sandcat-bg.svg);
+  background-image: url(/meteor-cat.png);
   background-position: top center;
-  background-size: 2868px 484px;
+  /*background-size: 2868px 484px;*/
   background-color: #62396e;
   z-index: -1;
   min-width: 1100px;
