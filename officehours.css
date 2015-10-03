@@ -420,24 +420,22 @@ a.detailbutton {
 
 /* ==================================================================================== */
 
+.mid {
+  width: 250px;
+  margin: 0px;
+}
+
 #principles {
-  /*height: 300px;*/
   display: inline-block;
   margin-top: 0px;
 }
 
-#principles>h2 {
-  /*display: none;*/
-}
-
 #principles>section {
   width: 250px;
-  /*padding: 0 37px;*/
 }
 
 #principles>section::before {
   content: " ";
-  /*display: block;*/
   height: 150px;
   background-repeat: no-repeat;
   background-position: top;
@@ -449,8 +447,6 @@ a.detailbutton {
 
 #principles>section>details>summary::after {
   content: " ";
-  /*display: block;*/
-  /*background-image: url(images/caret.svg);*/
   background-repeat: no-repeat;
   background-position: center;
   width: 24px;
