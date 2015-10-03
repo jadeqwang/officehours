@@ -320,11 +320,13 @@ a.detailbutton {
   color: #000000;
   background-color: #fffff;
   font-weight: normal;
+  text-align: center;
 }
 
 #plainsection>h1 {
   text-align: center;
-  width: 1000px;
+  width: 100%;
+  /*width: 1000px;*/
   margin: 25px;
   font-size: 26px;
   line-height: 45px;
@@ -336,12 +338,12 @@ a.detailbutton {
   color: inherit;
 }
 
-#plainsection> table{
-  width: 1000px;
+/*#plainsection> table{
+  width: 100;
   margin-left: 75px;
   margin-right: 75px;
   vertical-align: top;
-}
+}*/
 
 .deal {
   width: 500px;
