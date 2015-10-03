@@ -731,10 +731,11 @@ a.detailbutton {
 footer {
   background-color: #4d2856;
   position:relative;
-  height: 400px;
+  height: 200px;
   margin-top: -1px;  /* fix seam on Android */
   color: white;
   text-align: right;
+  padding: 25px 50px 0 0; 
 }
 
 footer>h2 {
@@ -746,7 +747,7 @@ footer>h2 {
 }
 
 footer>img {
-  margin-right: 25px;
+  margin-right: 5px;
 }
 
 footer::before {
@@ -754,10 +755,11 @@ footer::before {
   display: block;
   background-image: url(/tents.png);
   background-repeat: no-repeat;
+  background-size: 550px;
   position:absolute;
-  top: -200px;
+  top: -175px;
   width: 800px;
-  height: 500px;
+  height: 400px;
   /*vertical-align: bottom;*/
   /*margin-right: 400px;*/
   margin-right: -20px;
