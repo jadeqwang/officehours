@@ -1000,6 +1000,7 @@ footer {
   overflow: hidden;
   margin-top: -1px;  /* fix seam on Android */
   color: white;
+  text-align: right;
 }
 
 footer>h2 {
@@ -1042,6 +1043,6 @@ footer>ul>li>a {
 footer>p {
   padding: 0;
   margin: 0 100px 30px;
-  text-align: center;
+  text-align: right;
   color: #a993af;
 }
