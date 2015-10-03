@@ -378,7 +378,6 @@ a.detailbutton {
   margin: 20px;
   padding: 20px;
   text-align: center;
-  /*color: #fffbfb;*/
   vertical-align: top;
 }
 
@@ -386,11 +385,6 @@ a.detailbutton {
   vertical-align: top;
   margin: 25px;
 }
-
-/*#plainsection> td {
-  border-width: 1px;
-  color: #fffbfb;
-}*/
 
 #demo {
   padding: 35px 0;
@@ -429,6 +423,7 @@ a.detailbutton {
 #principles {
   /*height: 300px;*/
   display: inline-block;
+  margin-top: 0px;
 }
 
 #principles>h2 {
@@ -437,7 +432,7 @@ a.detailbutton {
 
 #principles>section {
   width: 250px;
-  padding: 0 37px;
+  /*padding: 0 37px;*/
 }
 
 #principles>section::before {
@@ -465,7 +460,6 @@ a.detailbutton {
 }
 
 #principles>section>details[open]>summary::after {
-  /*background-image: url(images/tri.svg);*/
   width: 80px;
   height: 30px;
   margin: 20px auto 0;
@@ -490,30 +484,13 @@ a.detailbutton {
 }
 
 #principles>section>details>div>div::before {
-  /*display: block;*/
   content: " ";
   background-repeat: no-repeat;
   background-position: center;
   height: 85px;
 }
 
-#principles>section:nth-of-type(1)>h3 { left: 100px; }
-#principles>section:nth-of-type(2)>h3 { left: 425px; }
-#principles>section:nth-of-type(3)>h3 { left: 750px; }
-#principles>section:nth-of-type(1)>details>summary { left: 100px; }
-#principles>section:nth-of-type(2)>details>summary { left: 425px; }
-#principles>section:nth-of-type(3)>details>summary { left: 750px; }
-
-/*#usability::before { background-image: url(images/usability.svg); }
-#security::before  { background-image: url(images/security.svg); }
-#freedom::before   { background-image: url(images/freedom.svg); }
-
-#usability>details>div>div::before { background-image: url(images/usability-mono.svg); }
-#security>details>div>div::before  { background-image: url(images/security-mono.svg); }
-#freedom>details>div>div::before   { background-image: url(images/freedom-mono.svg); }
-*/
-/* 
-==================================================================================== */
+/*==================================================================================== */
 
 #users {
   height: 850px;
