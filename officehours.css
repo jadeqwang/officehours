@@ -351,7 +351,28 @@ a.detailbutton {
   width: 1000px;
   margin-left: 75px;
   margin-right: 75px;
+  vertical-align: top;
 }
+
+.calloutbox {
+  border-radius: 2px;
+  border: 2px solid #ebe8ed;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /*color: #fffbfb;*/
+  vertical-align: top;
+}
+
+.calloutbox>p {
+  vertical-align: top;
+  margin: 25px;
+}
+
+/*#plainsection> td {
+  border-width: 1px;
+  color: #fffbfb;
+}*/
 
 #demo {
   padding: 35px 0;
