@@ -338,12 +338,13 @@ a.detailbutton {
   color: inherit;
 }
 
-/*#plainsection> table{
-  width: 100;
-  margin-left: 75px;
-  margin-right: 75px;
-  vertical-align: top;
-}*/
+#mid {
+  border-style: solid;
+  border-color: #ebe8ed;
+  border-width: 0px 2px;
+  width: 340px;
+  display: inline-block;
+}
 
 .deal {
   width: 500px;
