@@ -141,7 +141,7 @@ a.button {
   /*width: 50%;*/
   padding: 4px 4px;
   border-radius: 2px;
-  font-size: 24pt;
+  font-size: 28pt;
   text-decoration: none;
 }
 
@@ -323,11 +323,11 @@ section.tabs>section>details>div>div {
   font-weight: normal;
 }
 
-#plainsection>p {
+#plainsection>h1 {
   text-align: center;
-  width: 900px;
-  margin: 0 auto;
-  font-size: 32px;
+  width: 1000px;
+  margin: 25px;
+  font-size: 26px;
   line-height: 45px;
 }
 
