@@ -347,12 +347,12 @@ a.detailbutton {
 }
 
 .deal {
-  width: 500px;
+  width: 460px;
   display:inline-block;
-  margin: 0 25px;
+  /*margin: 0 25px;*/
   text-align: center;
   vertical-align: top;
-  padding: 25px;
+  margin: 0 25px;
 }
 
 .deal> li {
@@ -361,6 +361,7 @@ a.detailbutton {
 
 .deal> p{
   text-align: left;
+  /*font-weight: italic;*/
   /*font-size: 14px;*/
 }
 
@@ -368,7 +369,7 @@ a.detailbutton {
   border-radius: 2px;
   border: 2px solid #ebe8ed;
   margin: 20px;
-  padding: 20px;
+  padding: 0 20px 30px 20px;
   text-align: center;
   vertical-align: top;
 }
