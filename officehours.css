@@ -50,7 +50,6 @@ body.droid {
 }
 
 nav {
-  /*background-image: url(/sandstormio-logo.png);*/
   background-repeat: no-repeat;
   background-size: 160px 44px;
   height: 70px;
@@ -60,7 +59,6 @@ nav {
   vertical-align: center;
   font-size: 14pt;
   width: 100%;
-  /*width: 1100px;*/
   margin: 0 auto;
 }
 
@@ -70,32 +68,23 @@ nav>a {
   text-decoration: none;
   vertical-align: center;
   color: #460e54;
-  /*margin-bottom: 0px;*/
 }
 
 nav>a:first-of-type {
   padding-left: 50px;
   float: left;
-  /*margin: 0;*/
 }
 
 header {
   color: white;
-  /*padding-left: 125px;*/
-  /*padding-right: 75px;*/
   height: 300px;
   overflow: hidden;
   text-align: center;
   width: 100%;
-  /*width: 1100px;*/
-  /*margin: 0 auto;*/
   position: relative;
 }
 
 .headercontent {
-  /*text-align: center;*/
-  /*margin-right: 75px;*/
-  /*position: absolute;*/
   width: 800px;
   margin-left: 200px;
   display:inline-block;
@@ -104,18 +93,13 @@ header {
 header::before {
   content: " ";
   display: block;
-  /*padding-left: 75px;*/
   position: absolute;
   left: 0px;
   right: 0;
   height: 300px;
   background-image: url(/meteor-cat.png);
   background-position: 100px bottom;
-  /*top: 15px;*/
-/*  width: 800px;
-  height: 400px;*/
   background-repeat: no-repeat;
-/*  background-size: 400px 500px;*/
   background-size: 225px;
   background-color: #62396e;
   z-index: -1;
@@ -133,7 +117,6 @@ header h1 {
 header p {
   font-size: 23pt;
   color: #ffd4ec;
-  /*color: #783189;*/
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -175,23 +158,7 @@ header div.action-button a.button {
   line-height: 30px;
   margin: 0 0 8px;
 }
-
-header>table.fork {
-  width: 270px;
-  height: 50px;
-  margin: 8px auto;
-  border-collapse: collapse;
-}
-
-header>table.fork tr td {
-  border: 0px solid #d3a5c8;
-}
-
-header>table.fork tr:first-child td:first-child { border-width: 0 1px 1px 0; }
-header>table.fork tr:first-child td:last-child  { border-width: 0 0 1px 1px; }
-header>table.fork tr:last-child  td:first-child { border-width: 1px 0 0 1px; }
-header>table.fork tr:last-child  td:last-child  { border-width: 1px 1px 0 0; }
-
+/*
 header>form {
   text-align: left;
   vertical-align: top;
@@ -228,39 +195,7 @@ header>form>input[type="submit"] {
 header>form>input[type="email"]::-webkit-input-placeholder { color: #ae82b7; }
 header>form>input[type="email"]::-moz-placeholder { color: #ae82b7; }
 header>form>input[type="email"]:-ms-input-placeholder { color: #ae82b7; }
-
-header>ul#social {
-  float: right;
-  margin: 0;
-  vertical-align: top;
-  padding-left: 20px;
-  padding-right: 25px;
-}
-
-header>ul#social>li {
-  display: inline-block;
-  list-style-type: none;
-  padding: 0 4px;
-  vertical-align: bottom;
-}
-
-header>ul#social>li>a {
-  display: block;
-  color: transparent;
-  width: 42px;
-  height: 42px;
-  background-color: #ffd4ec;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-header>ul#social>li>a:hover {
-  background-color: #fffbfb;
-}
-
-header>ul#social>li#twitter>a { background-image: url(images/twitter.svg); }
-header>ul#social>li#google-plus>a { background-image: url(images/google-plus.svg); }
-header>ul#social>li#facebook>a { background-image: url(images/facebook.svg); }
+*/
 
 /* ==================================================================================== */
 
@@ -314,13 +249,9 @@ section.tabs>section>details>div {
   transition: height 200ms;
 }
 
-section.tabs>section>details>div>div {
-  /*padding: 25px 0;*/
-}
 
 a.detailbutton {
   background-color: #704778;
-  /*color: #fff;*/
   color: #fffbfb;
   padding: 5px 25px;
   margin: 50px;
@@ -341,8 +272,6 @@ a.detailbutton {
 
 #plainsection>h1 {
   text-align: center;
-  /*width: 100%;*/
-  /*width: 1000px;*/
   margin: 25px;
   font-size: 26px;
   line-height: 45px;
@@ -365,10 +294,13 @@ a.detailbutton {
 .deal {
   width: 460px;
   display:inline-block;
-  /*margin: 0 25px;*/
   text-align: center;
   vertical-align: top;
   margin: 0 25px;
+}
+
+.deal> ul {
+  text-align: left;
 }
 
 .deal> li {
@@ -377,8 +309,6 @@ a.detailbutton {
 
 .deal> p{
   text-align: left;
-  /*font-weight: italic;*/
-  /*font-size: 14px;*/
 }
 
 .calloutbox {
@@ -405,6 +335,7 @@ a.detailbutton {
 #demo img {
   height: 150px;
   width: auto;
+  border:0;
 }
 
 #description {
@@ -428,11 +359,6 @@ a.detailbutton {
 }
 
 /* ==================================================================================== */
-
-.mid {
-  width: 250px;
-  margin: 0px;
-}
 
 #principles {
   display: inline-block;
@@ -495,6 +421,8 @@ a.detailbutton {
   height: 85px;
 }
 
+
+
 /* ==================================================================================== */
 
 footer {
@@ -517,6 +445,7 @@ footer>h2 {
 
 footer>img {
   margin-right: 5px;
+  border:0;
 }
 
 footer::before {
@@ -529,8 +458,6 @@ footer::before {
   top: -175px;
   width: 800px;
   height: 400px;
-  /*vertical-align: bottom;*/
-  /*margin-right: 400px;*/
   margin-right: -20px;
 }
 
