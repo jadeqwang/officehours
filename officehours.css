@@ -82,11 +82,11 @@ nav>a:first-of-type {
 header {
   color: white;
   padding-left: 125px;
-  padding-right: 75px;
+  /*padding-right: 25px;*/
   height: 300px;
   overflow: hidden;
   text-align: center;
-  width: 100%;
+  width: 1100px;
   margin: 0 auto;
   position: relative;
 }
@@ -334,7 +334,7 @@ a.detailbutton {
 
 #plainsection>h1 {
   text-align: center;
-  width: 100%;
+  /*width: 100%;*/
   /*width: 1000px;*/
   margin: 25px;
   font-size: 26px;
