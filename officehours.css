@@ -81,18 +81,24 @@ nav>a:first-of-type {
 
 header {
   color: white;
-  padding-left: 125px;
-  /*padding-right: 25px;*/
+  /*padding-left: 125px;*/
+  /*padding-right: 75px;*/
   height: 300px;
   overflow: hidden;
   text-align: center;
-  width: 1100px;
-  margin: 0 auto;
+  width: 100%;
+  /*width: 1100px;*/
+  /*margin: 0 auto;*/
   position: relative;
 }
 
-#headercontent {
-  vertical-align: center;
+.headercontent {
+  /*text-align: center;*/
+  /*margin-right: 75px;*/
+  /*position: absolute;*/
+  width: 800px;
+  margin-left: 200px;
+  display:inline-block;
 }
 
 header::before {
@@ -116,7 +122,7 @@ header::before {
   min-width: 1100px;
 }
 
-header>h1 {
+header h1 {
   font-size: 22pt;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -124,7 +130,7 @@ header>h1 {
   font-weight: normal;
 }
 
-header>p {
+header p {
   font-size: 23pt;
   color: #ffd4ec;
   /*color: #783189;*/
@@ -142,7 +148,7 @@ a.button {
   text-decoration: none;
 }
 
-header>div.action-button {
+header div.action-button {
   display: inline-block;
   width: 300px;
   color: #b56fc7;
@@ -150,7 +156,7 @@ header>div.action-button {
   vertical-align: top;
 }
 
-header>div.action-or {
+header div.action-or {
   display: inline-block;
   width: 40px;
   color: #ffe8f5;
@@ -159,8 +165,9 @@ header>div.action-or {
   padding-top: 10px;
 }
 
-header>div.action-button>a.button {
+header div.action-button a.button {
   display: block;
+  text-align: center;
   font-size: 14pt;
   width: 280px;
   padding: 10px;
