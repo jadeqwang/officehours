@@ -59,7 +59,8 @@ nav {
   text-align: right;
   vertical-align: center;
   font-size: 14pt;
-  width: 1100px;
+  width: 100%;
+  /*width: 1100px;*/
   margin: 0 auto;
 }
 
@@ -80,12 +81,11 @@ nav>a:first-of-type {
 
 header {
   color: white;
-  padding-left: 300px;
+  padding-left: 125px;
   padding-right: 75px;
   height: 300px;
   overflow: hidden;
   text-align: center;
-  /*vertical-align: center;*/
   width: 100%;
   margin: 0 auto;
   position: relative;
