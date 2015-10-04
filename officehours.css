@@ -299,6 +299,10 @@ a.detailbutton {
   margin: 0;
 }
 
+.col67 p {
+  width: 600px;
+}
+
 .col33 {
   width: 340px;
   display: inline-block;
