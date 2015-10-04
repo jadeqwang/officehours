@@ -338,6 +338,12 @@ a.detailbutton {
   border:0;
 }
 
+#demo p {
+  width: 950px;
+  text-align: left;
+  margin: 0 75px 20px 75px;
+}
+
 #description {
   padding: 35px 0;
   color: #6A237C;

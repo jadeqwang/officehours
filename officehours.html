@@ -6,10 +6,11 @@
   {{> navbar}}
   {{> header}}
   {{> catchline}}
+  {{> explanation}}
+  {{> principles}}
   {{> demo}}
   {{> details}}
   {{> footer}}
-  
 </body>
 
 <template name="header">
@@ -29,8 +30,11 @@
 
 <template name="catchline">
   <section id="plainsection">
-    <h1>We want your app to shine! To get design office hours, just<br>package your app for the Sandstorm.io server app ecosystem.</h1>
+    <h1>We want your app to shine! To get design office hours, just<br>package your app for the <a href="https://apps.sandstorm.io">Sandstorm server app ecosystem</a>.</h1>
   </section>
+</template>
+
+<template name="principles">
   <section id="plainsection">
     <section id="principles" class="tabs">
       <h3>Multi-instance</h3> 
@@ -39,7 +43,7 @@
     <section id="mid">
       <section id="principles" class="tabs">
         <h3>Sharing & access control</h3>  
-        <p>Sandstorm handles user log-in and sharing. One less widget to add and style.</p>
+        <p>Sandstorm handles user log-in and sharing. One less component to add and style.</p>
       </section>
     </section>
     <section id="principles" class="tabs">
@@ -64,6 +68,14 @@
   </section>
 </template>
 
+
+<template name="explanation">
+  <section id="demo">
+    <h1>What is Sandstorm?</h1>
+    <p>Sandstorm is a user-friendly platform for deploying and managing instances of web applications on your personal server. It's like Google Apps For Your Domain, but anyone can write an app, and  Sandstorm makes it easy and secure to deploy. People can use the hosted service at <a href="https://oasis.sandstorm.io">oasis.sandstorm.io</a> or <a href="https://sandstorm.io/install/">install Sandstorm on their own Linux box</a>. Since Sandstorm has built-in multi-instance, sharing, and access control, that means a lot less work for you to do in your 24 hours.</p>
+  </section>
+</template>
+
 <template name="details">
   <section id="plainsection">
     <h1 id="howitworks">So here's the deal</h1>
@@ -82,10 +94,10 @@
         <li>2x30min Design Office Hours with Sandstorm Designer Nena Nguyen. <a href="https://www.google.com/calendar/selfsched?sstoken=UUFtRlJvYnNvUVdyfGRlZmF1bHR8Y2U2OGEwYzE1MjFhYTg1OTI1OTY4NjZiMzM0MGMzMGU">Sign up here »</a>
           <p>You can use the first session to communicate the vision of your app, and follow-up in the 2nd session.</p>
         </li>
-        <li>One free year of Oasis</li>
+        <li>One free year of <a href="https://oasis.sandstorm.io">Oasis</a></li>
           <p>Sandstorm’s managed hosting, for every team member, at the Mega tier ($288 value). Great for private git hosting, document collaboration, or host any open source app you want, with built-in access control and sharing</p>
-        <li>Keybase.io invite from Jade</li>
-          <p>If you don't have one.</p>
+        <li><a href="https://keybase.io">Keybase.io</a> invite from Jade</li>
+          <p>Keybase.io is a website for helping people send encrypted & signed messages to each other. The Sandstorm app market relies on it, so if you need an invite, Jade will give one to you!</p>
       </ul>
     </div>
   </section>
