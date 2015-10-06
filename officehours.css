@@ -315,10 +315,22 @@ a.detailbutton {
 }
 
 #demo img {
-  height: 150px;
+  height: 125px;
   width: auto;
   border:0;
-  margin-right: 45px;
+  margin-right: 60px;
+}
+
+#whatis {
+  padding: 35px 0;
+  color: #000000;
+  background-color: #e6e3e8;
+  text-align: center;
+}
+
+#whatis img {
+  height: 181px;
+  width: 340px;
 }
 
 /*#demo p {
