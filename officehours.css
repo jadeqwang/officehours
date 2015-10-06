@@ -158,44 +158,6 @@ header div.action-button a.button {
   line-height: 30px;
   margin: 0 0 8px;
 }
-/*
-header>form {
-  text-align: left;
-  vertical-align: top;
-  color: #ffd4ec;
-  padding-top: 4px;
-  float: left;
-  padding-left: 25px;
-}
-
-header>form>p {
-  margin: 0 0;
-  font-size: 12pt;
-}
-
-header>form>input {
-  height: 2em;
-  border: none;
-  font-size: 14pt;
-  padding: 0 8px;
-  height: 32px;
-}
-
-header>form>input[type="email"] {
-  background-color: #fffbfb;
-  color: #ae72b1;
-  width: 150px;
-}
-
-header>form>input[type="submit"] {
-  background-color: #ffd4ec;
-  color: #ae72b1;
-}
-
-header>form>input[type="email"]::-webkit-input-placeholder { color: #ae82b7; }
-header>form>input[type="email"]::-moz-placeholder { color: #ae82b7; }
-header>form>input[type="email"]:-ms-input-placeholder { color: #ae82b7; }
-*/
 
 /* ==================================================================================== */
 
@@ -292,7 +254,7 @@ a.detailbutton {
 }
 
 .col67 {
-  width: 600px;
+  width: 680px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
@@ -356,13 +318,14 @@ a.detailbutton {
   height: 150px;
   width: auto;
   border:0;
+  margin-right: 45px;
 }
 
-#demo p {
+/*#demo p {
   width: 950px;
   text-align: left;
   margin: 0 75px 20px 75px;
-}
+}*/
 
 #description {
   padding: 35px 0;
