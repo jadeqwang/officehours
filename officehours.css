@@ -131,6 +131,14 @@ a.button {
   text-decoration: none;
 }
 
+a.button:hover{
+  background-color: #aa5fb8;
+}
+
+a.detailbutton:hover{
+  background-color: #b56fc7;
+}
+
 header div.action-button {
   display: inline-block;
   width: 300px;
